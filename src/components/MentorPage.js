@@ -29,6 +29,12 @@ export default class MentorPage extends React.Component {
           <div className="description">
             {mentor.description}
           </div>
+          <div className="story-label">
+            <strong>Background:</strong>
+          </div>
+          <div className="story">
+            {mentor.story}
+          </div>
 
         </div>
         <div className="navigateBack">

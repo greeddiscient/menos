@@ -2,6 +2,7 @@
 import React from 'react';
 import MentorPreview from './MentorPreview';
 import mentors from '../data/mentors';
+import NavBar from'./NavBar';
 
 export default class IndexPage extends React.Component {
   render() {
