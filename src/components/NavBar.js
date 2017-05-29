@@ -15,12 +15,15 @@ export default class NavBar extends React.Component {
         </Navbar.Brand>
       </Navbar.Header>
         <Nav>
-          <LinkContainer to="about">
+          <IndexLinkContainer to="/">
             <NavItem eventKey={1}>Home</NavItem>
-          </LinkContainer>
-
+          </IndexLinkContainer>
+          <LinkContainer to= "mentors">
             <NavItem eventKey={2}>Mentors</NavItem>
+          </LinkContainer>
+          <LinkContainer to="about">
             <NavItem eventKey={3}>About</NavItem>
+          </LinkContainer>
         </Nav>
 
       </Navbar>
