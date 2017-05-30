@@ -111,7 +111,50 @@ footer p {
   font-family: 'Open Sans',sans-serif;
 }
 
+.mentor-splash .athlete-preview {
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  display: inline-block;
+  margin: 0 5em 5em 0;
+  max-width: 250px;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  border-radius:20px;
+}
 
+.mentor-splash .athlete-preview img {
+  margin: 0;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.mentor-splash .athlete-preview .name {
+  color: #030303;
+  display: inline-block;
+  font-size: 1.6em;
+  overflow: hidden;
+  padding: .2em;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  width: 100%;
+  font-family: 'Roboto',sans-serif;
+}
+
+.mentor-splash .athlete-preview .position {
+  color: #030303;
+  display: inline-block;
+  font-size: 1.2em;
+  overflow: hidden;
+  padding: .2em;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  width: 100%;
+  font-family: 'Open Sans',sans-serif;
+}
 
 nav.athletes-menu {
   margin: 0 auto;
@@ -170,54 +213,6 @@ nav.athletes-menu a.active {
   width: auto;
 }
 
-.athlete .flag .icon {
-  display: inline-block;
-  padding-bottom: .1em;
-  width: auto;
-}
-
-.athlete .description,
-.athlete .medals {
-  font-size: 1.6em;
-  padding: 1em;
-}
-
-.athlete .medals p {
-  font-size: 1em;
-}
-
-.athlete .medals li {
-  list-style: none;
-}
-
-.athlete .medals .symbol {
-  border-radius: 50%;
-  display: inline-block;
-  font-size: .8em;
-  height: 1.6em;
-  justify-content: center;
-  margin: 5px;
-  text-align: center;
-  width: 1.6em;
-}
-
-.athlete .medals .symbol.symbol-G {
-  color: #daa520;
-  background-color: #fff6de;
-  border: 2px solid #daa520;
-}
-
-.athlete .medals .symbol.symbol-S {
-  color: #383738;
-  background-color: #b9b5b5;
-  border: 2px solid #383738;
-}
-
-.athlete .medals .symbol.symbol-B {
-  color: #6b1919;
-  background-color: #ea96a1;
-  border: 2px solid #6E1924;
-}
 
 .navigateBack {
   font-size: 26px;
@@ -248,32 +243,12 @@ nav.athletes-menu a.active {
   text-decoration: underline;
 }
 
-.navBar{
-  background-color: #333;
+.navbar-inverse .navbar-nav > li > a {
+    text-decoration: none;
 }
-
-.navBar ul {
-  list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #333;
+.navbar-inverse .navbar-brand {
+    text-decoration: none;
 }
-
-.navBar  li {
-      float: left;
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-}
-
-  /* Change the link color to #111 (black) on hover */
-.navBar li:hover {
-      background-color: #111;
-}
-
 .founders{
 
   text-align:center;
@@ -303,6 +278,7 @@ footer{
 .contact-us{
   color:#9d9d9d;
   font-size:18px;
+  font-family: 'Open Sans', sans-serif;
 }
 .contact-us u{
   color:white;
@@ -314,4 +290,29 @@ footer{
 }
 .athlete-full{
   margin-bottom:20px;
+}
+.splash-container{
+  background-image:url(../img/handry-satriago-cover.jpg);
+  position:relative;
+  display:block;
+  height:500px;
+  background-size:100%;
+}
+/*.splash-container img{
+  position: absolute;
+  left:0;
+  top:0;
+  background-size:100%;
+  width: 100%;
+}*/
+.splash-container h1{
+  position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%;
+}
+.about-splash{
+  background-color: #000;
+  height:500px;
+  display:block;
 }

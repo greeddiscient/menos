@@ -11,7 +11,7 @@ export default class NavBar extends React.Component {
       <Navbar inverse>
       <Navbar.Header>
         <Navbar.Brand>
-          <Link to='/' className='navbar-brand'>Menos</Link>
+          <Link to='/' className='navbar-brand'>menos</Link>
         </Navbar.Brand>
       </Navbar.Header>
         <Nav>
