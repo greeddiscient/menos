@@ -70,7 +70,7 @@ footer p {
   border: 1px solid #ccc;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
   display: inline-block;
-  margin: 0 5em 5em 0;
+  margin: 25px 25px 25px 25px;
   max-width: 250px;
   padding: 0;
   position: relative;
@@ -256,12 +256,16 @@ nav.athletes-menu a.active {
   text-decoration: underline;
 }
 
+.navbar{
+  margin-bottom:0px;
+}
+
 .navbar-inverse .navbar-nav > li > a {
     text-decoration: none;
-    color:#9d9d9d;
+    color:#fff;
 
     font-family: 'Open Sans', sans-serif;
-    font-size:20px;
+    font-size:18px;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
@@ -276,10 +280,10 @@ nav.athletes-menu a.active {
 
 .navbar-inverse .navbar-brand {
     text-decoration: none;
-    color:#fff;
+    color:#73af59;
 
     font-family: 'Roboto', sans-serif;
-    font-size:16px;
+    font-size:17px;
 }
 .founders{
 
@@ -289,15 +293,22 @@ nav.athletes-menu a.active {
 
 .founder-window{
   display:inline-block;
+  width:250px;
   text-align:center;
   margin-top: 20px;
   margin-left: 50px;
   margin-right: 50px;
 }
 .founder-window .founder-name{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .founder-window .founder-education{
+  font-family: 'Roboto', sans-serif;
+}
+.founder-window .founder-degree{
+  font-family: 'Roboto', sans-serif;
+}
+.founder-window .founder-message{
   font-family: 'Open Sans', sans-serif;
 }
 footer{
@@ -317,8 +328,8 @@ footer{
   font-size:18px;
 }
 .about{
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 143px;
+  margin-right: 143px;
 }
 .athlete-full{
   margin-bottom:20px;
