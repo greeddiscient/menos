@@ -15,6 +15,9 @@ export default class MentorPage extends React.Component {
     const headerStyle = { backgroundImage: `url(/img/${mentor.cover})` };
     return (
       <div className="athlete-full">
+        <div className="navigateBack">
+          <Link to="/">« Back to Mentors</Link>
+        </div>
         <MentorsMenu mentors={mentors}/>
         <div className="athlete">
           <header style={headerStyle}/>
@@ -26,8 +29,8 @@ export default class MentorPage extends React.Component {
           <div className="description-label">
             <strong>Background:</strong>
           </div>
-          <div className="description">
-            {mentor.description}
+          <div className="background">
+            {mentor.background}
           </div>
           <div className="story-label">
             <strong>Background:</strong>
@@ -37,9 +40,7 @@ export default class MentorPage extends React.Component {
           </div>
 
         </div>
-        <div className="navigateBack">
-          <Link to="/">« Back to the index</Link>
-        </div>
+
       </div>
     );
   }

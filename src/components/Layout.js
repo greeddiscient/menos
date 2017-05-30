@@ -19,6 +19,9 @@ export default class Layout extends React.Component {
 
         <div className="app-content">{this.props.children}</div>
         <footer>
+            <h1 className= "contact-us">
+              Contact us at <u className="email">support@menos.id</u>
+            </h1>
         </footer>
       </div>
     );

@@ -11,7 +11,6 @@ svg{display:inline-flex}img{max-width:100%;display:block}
 html {
   color: #030303;
   font: caption;
-  padding-bottom: 2em;
 }
 
 a {
@@ -63,7 +62,7 @@ footer p {
 
 .home .athletes-selector {
   clear: both;
-  padding: 2em;
+  padding: 3.5em;
   text-align: center;
 }
 
@@ -72,15 +71,18 @@ footer p {
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
   display: inline-block;
   margin: 0 5em 5em 0;
-  max-width: 200px;
+  max-width: 250px;
   padding: 0;
   position: relative;
   width: 100%;
+  border-radius:20px;
 }
 
 .home .athletes-selector .athlete-preview img {
   margin: 0;
   width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .home .athletes-selector .athlete-preview .name {
@@ -93,6 +95,7 @@ footer p {
   text-decoration: none;
   white-space: nowrap;
   width: 100%;
+  font-family: 'Roboto',sans-serif;
 }
 
 .home .athletes-selector .athlete-preview .position {
@@ -105,21 +108,10 @@ footer p {
   text-decoration: none;
   white-space: nowrap;
   width: 100%;
+  font-family: 'Open Sans',sans-serif;
 }
 
-.home .athletes-selector .athlete-preview .medals-count {
-  background: #fff;
-  border-radius: 2px;
-  display: inline-block;
-  font-weight: bold;
-  margin: .2em;
-  padding: .2em .4em;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  top: 0;
-  vertical-align: middle;
-}
+
 
 nav.athletes-menu {
   margin: 0 auto;
@@ -228,9 +220,8 @@ nav.athletes-menu a.active {
 }
 
 .navigateBack {
-  font-size: 1.6em;
-  padding: 2em;
-  text-align: center;
+  font-size: 26px;
+  padding: 1em;
   text-decoration: none;
 }
 
@@ -258,8 +249,9 @@ nav.athletes-menu a.active {
 }
 
 .navBar{
-
+  background-color: #333;
 }
+
 .navBar ul {
   list-style-type: none;
       margin: 0;
@@ -280,4 +272,46 @@ nav.athletes-menu a.active {
   /* Change the link color to #111 (black) on hover */
 .navBar li:hover {
       background-color: #111;
+}
+
+.founders{
+
+  text-align:center;
+  margin-bottom:20px;
+}
+
+.founder-window{
+  display:inline-block;
+  text-align:center;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.founder-window .founder-name{
+  font-family: 'Roboto', sans-serif;
+}
+.founder-window .founder-education{
+  font-family: 'Open Sans', sans-serif;
+}
+footer{
+  background-color: #222;
+  border-radius:5px;
+  max-width:100%;
+  margin:0px;
+  padding:0.5em;
+}
+.contact-us{
+  color:#9d9d9d;
+  font-size:18px;
+}
+.contact-us u{
+  color:white;
+  font-size:18px;
+}
+.about{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.athlete-full{
+  margin-bottom:20px;
 }

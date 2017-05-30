@@ -18,10 +18,10 @@ export default class NavBar extends React.Component {
           <IndexLinkContainer to="/">
             <NavItem eventKey={1}>Home</NavItem>
           </IndexLinkContainer>
-          <LinkContainer to= "mentors">
+          <LinkContainer to= "/mentors">
             <NavItem eventKey={2}>Mentors</NavItem>
           </LinkContainer>
-          <LinkContainer to="about">
+          <LinkContainer to="/about">
             <NavItem eventKey={3}>About</NavItem>
           </LinkContainer>
         </Nav>
