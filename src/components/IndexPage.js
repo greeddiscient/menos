@@ -4,11 +4,13 @@ import MentorPreview from './MentorPreview';
 import mentors from '../data/mentors';
 import NavBar from'./NavBar';
 
+
 export default class IndexPage extends React.Component {
   render() {
     return (
-      <div className="home">
 
+      <div className="home">
+        <NavBar/>
         <div className="splash-container">
           <h1>Reaching our fullest potential</h1>
         </div>

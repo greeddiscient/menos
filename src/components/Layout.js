@@ -1,8 +1,6 @@
 // src/components/Layout.js
 import React from 'react';
 import { Link } from 'react-router';
-import NavBar from'./NavBar';
-
 
 export default class Layout extends React.Component {
   render() {
@@ -14,7 +12,7 @@ export default class Layout extends React.Component {
           </Link>
         </header>
         <div>
-          <NavBar/>
+
         </div>
 
         <div className="app-content">{this.props.children}</div>

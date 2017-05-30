@@ -5,7 +5,9 @@ import NavBar from'./NavBar';
 export default class AboutPage extends React.Component {
   render() {
     return (
+
       <div className="home">
+      <NavBar/>
         <div className="about">
 
           <h1>This is your about page</h1>

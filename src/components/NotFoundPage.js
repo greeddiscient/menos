@@ -1,11 +1,14 @@
 // src/components/NotFoundPage.js
 import React from 'react';
 import { Link } from 'react-router';
+  import NavBar from'./NavBar';
 
 export default class NotFoundPage extends React.Component {
   render() {
     return (
+
       <div className="not-found">
+      <NavBar/>
         <h1>404</h1>
         <h2>Page not found!</h2>
         <p>

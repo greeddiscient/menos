@@ -5,8 +5,20 @@ import { IndexLinkContainer } from 'react-router-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 export default class NavBar extends React.Component {
+
+  constructor () {
+    super()
+    this.state = {
+      }
+    }
+  handleSelect(selectedKey) {
+    this.setState({activeKey: selectedKey})
+    console.log(this.state)
+  }
+
   render() {
     return (
+
       <div>
       <Navbar inverse>
       <Navbar.Header>
@@ -14,7 +26,7 @@ export default class NavBar extends React.Component {
           <Link to='/' className='navbar-brand'>menos</Link>
         </Navbar.Brand>
       </Navbar.Header>
-        <Nav>
+        <Nav activeKey={this.state.activeKey} onSelect={this.handleSelect.bind(this)}>
           <IndexLinkContainer to="/">
             <NavItem eventKey={1}>Home</NavItem>
           </IndexLinkContainer>

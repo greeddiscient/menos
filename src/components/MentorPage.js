@@ -4,6 +4,7 @@ import { Link } from 'react-router';
 import NotFoundPage from './NotFoundPage';
 import MentorsMenu from './MentorsMenu';
 import mentors from '../data/mentors';
+import NavBar from'./NavBar';
 
 export default class MentorPage extends React.Component {
   render() {
@@ -14,7 +15,10 @@ export default class MentorPage extends React.Component {
     }
     const headerStyle = { backgroundImage: `url(/img/${mentor.cover})` };
     return (
+
+
       <div className="athlete-full">
+        <NavBar/>
         <div className="navigateBack">
           <Link to="/">« Back to Mentors</Link>
         </div>
@@ -23,21 +27,33 @@ export default class MentorPage extends React.Component {
           <header style={headerStyle}/>
           <div className="picture-container">
             <img src={`/img/${mentor.image}`}/>
-            <h2 className="name">{mentor.name}</h2>
-            <h3 className="position">{mentor.position} of {mentor.company}</h3>
+            <div className="mentor-name-position">
+              <h2 className="name">{mentor.name}</h2>
+              <h3 className="position">{mentor.position} of {mentor.company}</h3>
+            </div>
+
           </div>
-          <div className="description-label">
-            <strong>Background:</strong>
+          <div className="mentor-about">
+            <div className="education-label">
+              <strong>Education:</strong>
+            </div>
+            <div className="education">
+              {mentor.education}
+            </div>
+            <div className="description-label">
+              <strong>Background:</strong>
+            </div>
+            <div className="background">
+              {mentor.background}
+            </div>
+            <div className="story-label">
+              <strong>Story:</strong>
+            </div>
+            <div className="story">
+              {mentor.story}
+            </div>
           </div>
-          <div className="background">
-            {mentor.background}
-          </div>
-          <div className="story-label">
-            <strong>Background:</strong>
-          </div>
-          <div className="story">
-            {mentor.story}
-          </div>
+
 
         </div>
 
