@@ -11,6 +11,10 @@ svg{display:inline-flex}img{max-width:100%;display:block}
 html {
   color: #030303;
   font: caption;
+
+}
+body{
+  background-color:#fffafa;
 }
 
 a {
@@ -98,6 +102,7 @@ footer p {
 }
 
 .athlete-preview .mentor-info{
+  padding:2.5px 5px 2.5px 5px;
   background-color: #222;
   width:100%;
   border-bottom-left-radius: 20px;
@@ -105,7 +110,7 @@ footer p {
 }
 
 .athlete-preview .name {
-  color: #fff;
+  color: #fffafa;
   display: inline-block;
   font-size: 1.6em;
   overflow: hidden;
@@ -129,6 +134,18 @@ footer p {
   width: 100%;
   font-family: 'Open Sans',sans-serif;
 }
+.athlete-preview .company {
+  color: #73af59;
+  display: inline-block;
+  font-size: 1.2em;
+  overflow: hidden;
+  padding: 2.5px 5px 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  width: 100%;
+  font-family: 'Open Sans',sans-serif;
+}
 
 
 
@@ -140,7 +157,7 @@ footer p {
 }
 
 .mentor-splash .athlete-preview .name {
-  color: #fff;
+  color: #fffafa;
   display: inline-block;
   font-size: 1.6em;
   overflow: hidden;
@@ -216,7 +233,7 @@ nav.athletes-menu a.active {
 .athlete .mentor-name-position{
   text-align:right;
   margin-right: 50px;
-  padding:10px;
+  padding:10px 0 10px 10px;
 }
 
 .athlete .mentor-cover{
@@ -226,8 +243,7 @@ nav.athletes-menu a.active {
 }
 
 .athlete .mentor-photo {
-  border-radius: 4px;
-  border: 8px solid #fff;
+  border: 6px solid #fffafa;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
   display: inline-block;
   width: 200px;
@@ -247,7 +263,7 @@ nav.athletes-menu a.active {
   padding: 0 0 0 10px;
   width: auto;
   font-family: 'Roboto', sans-serif;
-  color: #fff;
+  color: #fffafa;
 }
 .athlete .position {
   position:relative;
@@ -259,13 +275,18 @@ nav.athletes-menu a.active {
   font-family: 'Open Sans', sans-serif;
 }
 .athlete .mentor-about{
-  padding: 5px 50px 5px 50px;
+  padding: 10px 50px 10px 50px;
 }
 
 .navigateBack {
-  font-size: 26px;
-  padding: 1em;
-  text-decoration: none;
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left:145px;
+  font-size: 18px;
+  border-radius:5px;
+  text-decoration: underline;
+  color:#333;
+  font-family:'Roboto',sans-serif;
 }
 
 #abar {
@@ -297,7 +318,7 @@ nav.athletes-menu a.active {
 
 .navbar-inverse .navbar-nav > li > a {
     text-decoration: none;
-    color:#fff;
+    color:#fffafa;
 
     font-family: 'Open Sans', sans-serif;
     font-size:18px;
@@ -367,7 +388,7 @@ footer{
   margin-right: 143px;
 }
 .athlete-full{
-  margin-bottom:20px;
+  margin-bottom:40px;
 }
 .splash-container{
   background-image:url(../img/handry-satriago-cover.jpg);
@@ -398,13 +419,86 @@ footer{
   text-align:center;
 }
 .mentors-header-label{
-  margin-top: 20px;
-  background-color: #73af59;
+  margin-top: 40px;
+  background-color: #333;
+  color: #fffafa;
   font-family: 'Roboto', sans-serif;
-  font-size: 32px;
+  font-size: 20px;
   border: 1px solid black;
-  width:500px;
-  height: 2em;
-  padding-left:30px;
-  vertical-align: center;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  width: 140px;
+  text-align:right;
+  padding-right:5px;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+.mentor-splash-button{
+  margin-bottom:20px;
+}
+.profile-label{
+  color: white;
+  background-color: #333;
+  padding: 5px 10px 5px 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size:20px;
+  display:inline-block;
+}
+
+.profile-content{
+  color:#333;
+  font-family: 'Open Sans', sans-serif;
+  font-size:20px;
+  margin-top:5px;
+  margin-bottom:10px;
+}
+.mentor-profile-container{
+  position:relative;
+  width:100%;
+
+}
+
+.directional-buttons{
+  height: 100%;
+  display: inline-block;
+  width: 100%;
+  position: absolute;
+
+}
+.directional-buttons .nextButton{
+  margin-top:150px;
+  position:absolute;
+  right:0;
+  text-align: right;
+}
+.directional-buttons .prevButton{
+  margin-top:150px;
+  position:absolute;
+  left:0;
+}
+.directional-buttons .nextButton .name{
+
+  margin:auto;
+  padding-right:10px;
+  font-size:16px;
+  color:#333;
+
+}
+.directional-buttons .nextButton .right-arrow{
+  padding-right:10px;
+  font-size:128px;
+  color:#333;
+}
+.directional-buttons .prevButton .name{
+  padding-left:10px;
+  margin:auto;
+  font-size:16px;
+  color:#333;
+}
+
+.directional-buttons .prevButton .left-arrow{
+  padding-left:10px;
+
+  font-size:128px;
+  color:#333;
 }

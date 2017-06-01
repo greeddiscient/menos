@@ -12,9 +12,9 @@ export default class MentorsPage extends React.Component {
 
       <div className="home">
         <NavBar/>
-        <div className="mentors-header-label">
+        <h1 className="mentors-header-label">
           Mentors
-        </div>
+        </h1>
         <div className="athletes-selector">
           {mentors.map(mentorData => <MentorPreview key={mentorData.id} {...mentorData} />)}
         </div>

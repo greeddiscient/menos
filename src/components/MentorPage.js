@@ -7,58 +7,106 @@ import mentors from '../data/mentors';
 import NavBar from'./NavBar';
 
 export default class MentorPage extends React.Component {
+  renderDirectionalButtons(index){
+    if (index ==0){
+      var prevMentor= mentors[mentors.length-1];
+      var nextMentor= mentors[index+1];
+    }
+    else if (index==mentors.length-1){
+
+      var prevMentor= mentors[index-1];
+      var nextMentor= mentors[0];
+    }
+    else{
+      var prevMentor= mentors[index-1];
+      var nextMentor= mentors[index+1];
+
+    }
+    return(
+      <div className="directional-buttons">
+        <Link to={`/mentors/${prevMentor.id}`}>
+          <div className="prevButton">
+            <i className="fa fa-angle-left fa-5x left-arrow" aria-hidden="true"></i>
+            <h1 className="name">{prevMentor.name}</h1>
+          </div>
+        </Link>
+        <Link to={`/mentors/${nextMentor.id}`}>
+          <div className="nextButton">
+
+            <i className="fa fa-angle-right fa-5x right-arrow" aria-hidden="true"></i>
+            <h1 className="name">{nextMentor.name}</h1>
+          </div>
+        </Link>
+      </div>
+
+
+
+    )
+  }
+
   render() {
-    const id = this.props.params.id;
-    const mentor = mentors.filter((mentor) => mentor.id === id)[0];
+    const mentorid = this.props.params.id;
+    const mentor = mentors.filter((mentor) => mentor.id === mentorid)[0];
     if (!mentor) {
       return <NotFoundPage/>;
     }
+    var index = mentors.findIndex(mentor => mentor.id==mentorid);
+
     // const headerStyle = { backgroundImage: `url(/img/${mentor.cover})` };
     return (
 
 
       <div className="athlete-full">
         <NavBar/>
-        <div className="navigateBack">
-          <Link to="/">« Back to Mentors</Link>
-        </div>
-        <MentorsMenu mentors={mentors}/>
-        <div className="athlete">
-          <div className= "mentor-header">
-            <img className= "mentor-cover" src={`/img/${mentor.cover}`}/>
-            <img className= "mentor-photo"  src={`/img/${mentor.image}`}/>
-            <div className="mentor-name-position-container">
-              <div className="mentor-name-position">
-                <h2 className="name">{mentor.name}</h2>
-                <h3 className="position">{mentor.position} of {mentor.company}</h3>
+        <Link to="/mentors">
+          <h1 className="navigateBack">
+            « Back to Mentors
+          </h1>
+        </Link>
+        <div className="mentor-profile-container">
+          {this.renderDirectionalButtons(index)}
+          <div className="athlete">
+
+
+
+
+            <div className= "mentor-header">
+              <img className= "mentor-cover" src={`/img/${mentor.cover}`}/>
+              <img className= "mentor-photo"  src={`/img/${mentor.image}`}/>
+              <div className="mentor-name-position-container">
+                <div className="mentor-name-position">
+                  <h2 className="name">{mentor.name}</h2>
+                  <h3 className="position">{mentor.position} of {mentor.company}</h3>
+                </div>
+              </div>
+
+
+            </div>
+
+
+
+            <div className="mentor-about">
+              <h1 className="profile-label">
+                Education
+              </h1>
+              <div className="education profile-content">
+                {mentor.education}
+              </div>
+              <h1 className="profile-label">
+                Background
+              </h1>
+              <div className="background profile-content">
+                {mentor.background}
+              </div>
+              <h1 className="profile-label">
+                Story
+              </h1>
+              <div className="story profile-content">
+                {mentor.story}
               </div>
             </div>
+        </div>
 
-
-          </div>
-
-
-
-          <div className="mentor-about">
-            <div className="education-label">
-              <strong>Education:</strong>
-            </div>
-            <div className="education">
-              {mentor.education}
-            </div>
-            <div className="description-label">
-              <strong>Background:</strong>
-            </div>
-            <div className="background">
-              {mentor.background}
-            </div>
-            <div className="story-label">
-              <strong>Story:</strong>
-            </div>
-            <div className="story">
-              {mentor.story}
-            </div>
-          </div>
 
 
         </div>
