@@ -13,7 +13,7 @@ export default class MentorPage extends React.Component {
     if (!mentor) {
       return <NotFoundPage/>;
     }
-    const headerStyle = { backgroundImage: `url(/img/${mentor.cover})` };
+    // const headerStyle = { backgroundImage: `url(/img/${mentor.cover})` };
     return (
 
 
@@ -24,15 +24,21 @@ export default class MentorPage extends React.Component {
         </div>
         <MentorsMenu mentors={mentors}/>
         <div className="athlete">
-          <header style={headerStyle}/>
-          <div className="picture-container">
-            <img src={`/img/${mentor.image}`}/>
-            <div className="mentor-name-position">
-              <h2 className="name">{mentor.name}</h2>
-              <h3 className="position">{mentor.position} of {mentor.company}</h3>
+          <div className= "mentor-header">
+            <img className= "mentor-cover" src={`/img/${mentor.cover}`}/>
+            <img className= "mentor-photo"  src={`/img/${mentor.image}`}/>
+            <div className="mentor-name-position-container">
+              <div className="mentor-name-position">
+                <h2 className="name">{mentor.name}</h2>
+                <h3 className="position">{mentor.position} of {mentor.company}</h3>
+              </div>
             </div>
 
+
           </div>
+
+
+
           <div className="mentor-about">
             <div className="education-label">
               <strong>Education:</strong>
