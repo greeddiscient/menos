@@ -391,11 +391,11 @@ footer{
   margin-bottom:40px;
 }
 .splash-container{
-  background-image:url(../img/handry-satriago-cover.jpg);
+  background-image:url(../img/achieve-greatnesss.jpg);
   position:relative;
   display:block;
-  height:500px;
-  background-size:100%;
+  height:600px;
+  background-size:cover;
 }
 /*.splash-container img{
   position: absolute;
@@ -405,10 +405,15 @@ footer{
   width: 100%;
 }*/
 .splash-container h1{
+  text-align:right;
   position: absolute;
-   top: 200px;
-   left: 0;
-   width: 100%;
+   bottom: 75px;
+   right: 75px;
+   font-family: 'Open Sans',sans-serif;
+   font-size:32px;
+   color:#fffafa;
+   font-weight:100;
+
 }
 .about-splash{
   background-color: #000;
@@ -429,9 +434,9 @@ footer{
   border-bottom-right-radius: 2px;
   width: 140px;
   text-align:right;
-  padding-right:5px;
-  padding-top:5px;
-  padding-bottom:5px;
+  padding-right:7.5px;
+  padding-top:7.5px;
+  padding-bottom:7.5px;
 }
 .mentor-splash-button{
   margin-bottom:20px;

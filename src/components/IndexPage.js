@@ -15,7 +15,7 @@ export default class IndexPage extends React.Component {
       <div className="home">
         <NavBar/>
         <div className="splash-container">
-          <h1>Reaching our fullest potential</h1>
+          <h1>Achieve<br/> Greatness</h1>
         </div>
 
         <div className="about-splash">
