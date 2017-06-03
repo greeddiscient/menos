@@ -8,11 +8,12 @@ export default class AboutPage extends React.Component {
 
       <div className="home">
       <NavBar/>
-      <h1 className="about-header-label">We Believe</h1>
+      <h1 className="about-header-label">About</h1>
       <div className="about">
 
-        <h1>This is your about page</h1>
-        <p>Abyasa, Ivander and I believe that we need guidance in achieving our dreams and reaching our fullest potential. Guidance from successful and established individuals is instrumental. Menos is a website that facilitates and pairs people  up with mentors to aid them in their journey. </p>
+        <h1 className="about-believe">We Believe</h1>
+        <p className="about-content">At Menos, we believe in the pursuit of excellence and reaching our fullest potential. We want to achieve our goals with integrity.
+This would not be possible without role models that we respect in our lives. We need someone to guide us on the long and uncertain road to success. <br/><br/>Mentorship has been an ancient common theme in the symbols of our world. From the innate Father - Son relationship, to the classic Master - Apprentice discipleship, to war heroes such as Alexander the Great - Aristotle, and even to popular culture where Luke Skywalker seeks guidance from Obi Wan and Yoda before he goes on to save the universe, mentorship is everywhere. <br/><br/> Menos is our way of connecting you Indonesians to highly established mentors who will give you the best guidance for your quest. <br/><br/>Become the Strongest Version of Yourself!  </p>
       </div>
       <h1 className="founders-header-label">Meet the Founders</h1>
         <div className="founders">

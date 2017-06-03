@@ -334,7 +334,9 @@ nav.athletes-menu a.active {
   background-color:#080808;
 }
 
-.navbar-inverse .navbar-brand {
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-brand:focus,
+.navbar-inverse .navbar-brand:hover {
     text-decoration: none;
     color:#73af59;
 
@@ -345,7 +347,7 @@ nav.athletes-menu a.active {
   height:800px;
   margin:auto;
   margin-top:40px;
-  width:1200px;
+  width:1100px;
   text-align:center;
   margin-bottom:20px;
   position:relative;
@@ -474,6 +476,7 @@ footer{
   font-size:18px;
 }
 .about{
+  margin-top:40px;
   margin-left: 143px;
   margin-right: 143px;
 }
@@ -506,10 +509,40 @@ footer{
 
 }
 .about-splash{
-  background-color: #000;
-  height:500px;
+  margin:auto;
+  margin-top:40px;
+  width:1100px;
   display:block;
+  background: #333;
+  padding:25px;
+  border-radius:20px;
 }
+.about-splash-container{
+  margin-top:10px;
+  margin-left:20px;
+  margin-right:20px;
+  display:inline-block;
+  width:500px;
+  float:right;
+}
+.about-splash img {
+  border-radius: 3px;
+  width:500px;
+  display:inline-block;
+}
+.about-splash .menos-title{
+  font-family: 'Roboto',sans-serif;
+  font-size:34px;
+  font-weight: bold;
+  color:#fffafa;
+}
+.about-splash .menos-intro{
+  margin-top:20px;
+  font-family: 'Open Sans',sans-serif;
+  font-size:18px;
+  color:#fffafa;
+}
+
 .mentor-splash{
   text-align:center;
 }
@@ -528,8 +561,11 @@ footer{
   padding-top:7.5px;
   padding-bottom:7.5px;
 }
+.mentor-about-button{
+  margin-top:20px;
+}
 .mentor-splash-button{
-  margin-bottom:20px;
+  margin-bottom:40px;
 }
 .profile-label{
   color: white;
@@ -627,4 +663,22 @@ footer{
   padding-right:7.5px;
   padding-top:7.5px;
   padding-bottom:7.5px;
+}
+
+.mentor-splash-preview{
+  margin-top:20px;
+}
+
+.about .about-believe{
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  color:#333;
+  margin-bottom:20px;
+  font-weight:700;
+}
+
+.about .about-content{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color:#333;
 }

@@ -9,7 +9,7 @@ const mentors = [
     'position':'CEO',
     'company':'General Electric Indonesia',
     'background': 'Handry Satriago (born in Riau, Pekanbaru on June 13, 1969) is the CEO of General Electric Indonesia. He joined the company in 1997 as Business Development Manager. Prior to joining GE he worked for several local companies as head of business development.',
-    'education':'',
+    'education':'Bogor Agricultural University (IPB)',
     'story':'',
   },
   {
@@ -85,7 +85,7 @@ const mentors = [
     'cover': 'novistiar-rustandi-cover.png',
     'position':'CEO',
     'company':'HarukaEDU',
-    'background': '',
+    'background': 'Mr. Novistiar Rustandi is an entrepreneur with a passion for internet startups and digital businesses. Mr. Rustandi has worked in management roles at Price Waterhouse Coopers in the United States as well as Indonesis. He serves as Director at Founder Institute, Incorporated. He earned an undergraduate accounting degree, as well as dual master’s degrees in business administration and information systems development from George Washington University, and is a graduate of the inaugural semester of the Founder Institute in Silicon Valley.',
     'education':'The George Washington University',
     'story':'',
   },
