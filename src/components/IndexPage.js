@@ -5,7 +5,12 @@ import mentors from '../data/mentors';
 import NavBar from'./NavBar';
 import { Link } from 'react-router';
 
-var splashMentors= [mentors[0],mentors[1],mentors[2]]
+var splashMentors= mentors.filter(mentor=>
+  mentor.id === "handry-satriago" ||
+  mentor.id === "noni-purnomo" ||
+  mentor.id === "ananda-siregar"
+)
+
 
 export default class IndexPage extends React.Component {
 
