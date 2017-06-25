@@ -119,7 +119,8 @@ footer p {
   text-decoration: none;
   white-space: nowrap;
   width: 100%;
-  font-family: 'Roboto',sans-serif;
+  font-family: 'Open-Sans',sans-serif;
+  font-weight: 300;
 }
 
 .athlete-preview .position {
@@ -132,7 +133,8 @@ footer p {
   text-decoration: none;
   white-space: nowrap;
   width: 100%;
-  font-family: 'Open Sans',sans-serif;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
 }
 .athlete-preview .company {
   color: #73af59;
@@ -144,7 +146,8 @@ footer p {
   text-decoration: none;
   white-space: nowrap;
   width: 100%;
-  font-family: 'Open Sans',sans-serif;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
 }
 
 
@@ -262,8 +265,9 @@ nav.athletes-menu a.active {
   font-size: 3em;
   padding: 0 0 0 10px;
   width: auto;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open-Sans', sans-serif;
   color: #fffafa;
+  font-weight: 300;
 }
 .athlete .position {
   position:relative;
@@ -272,7 +276,8 @@ nav.athletes-menu a.active {
   padding: 0 0 0 10px;
   width: auto;
   color: #73af59;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 .athlete .mentor-about{
   padding: 10px 50px 10px 50px;
@@ -286,7 +291,8 @@ nav.athletes-menu a.active {
   border-radius:5px;
   text-decoration: underline;
   color:#333;
-  font-family:'Roboto',sans-serif;
+  font-family:'Open-Sans',sans-serif;
+  font-weight: 300;
 }
 
 #abar {
@@ -322,6 +328,7 @@ nav.athletes-menu a.active {
 
     font-family: 'Open Sans', sans-serif;
     font-size:18px;
+    font-weight: 300;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
@@ -413,12 +420,13 @@ nav.athletes-menu a.active {
   border-bottom-right-radius: 20px;
 }
 .founders .founder-details .founder-name{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #fffafa;
   font-size:22px;
   padding: 10px 10px 2.5px 10px;
   margin-bottom:5px;
   background-color:#333;
+  font-weight: 300;
 }
 .founders .founder-details .founder-education{
   font-family: 'Open Sans', sans-serif;
@@ -437,7 +445,8 @@ nav.athletes-menu a.active {
 .founders .founder-details .founder-message{
   margin-top:5px;
   text-align:left;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   padding: 2.5px 20px 15px 20px;
   color:#fffafa;
   font-size:16px;
@@ -502,10 +511,10 @@ footer{
   position: absolute;
    bottom: 75px;
    right: 75px;
-   font-family: 'Open Sans',sans-serif;
+   font-family: 'Roboto',sans-serif;
+   font-weight: 100;
    font-size:32px;
    color:#fffafa;
-   font-weight:100;
 
 }
 .about-splash{
@@ -531,16 +540,18 @@ footer{
   display:inline-block;
 }
 .about-splash .menos-title{
-  font-family: 'Roboto',sans-serif;
+  font-family: 'Open Sans',sans-serif;
   font-size:34px;
   font-weight: bold;
   color:#fffafa;
+  font-weight: 300;
 }
 .about-splash .menos-intro{
   margin-top:20px;
-  font-family: 'Open Sans',sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-size:18px;
   color:#fffafa;
+  font-weight: 300;
 }
 
 .mentor-splash{
@@ -550,7 +561,7 @@ footer{
   margin-top: 40px;
   background-color: #333;
   color: #fffafa;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   border: 1px solid black;
   border-top-right-radius: 2px;
@@ -560,6 +571,7 @@ footer{
   padding-right:7.5px;
   padding-top:7.5px;
   padding-bottom:7.5px;
+  font-weight: 300;
 }
 .mentor-about-button{
   margin-top:20px;
@@ -571,17 +583,19 @@ footer{
   color: white;
   background-color: #333;
   padding: 5px 10px 5px 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size:20px;
   display:inline-block;
+  font-weight: 300;
 }
 
 .profile-content{
   color:#333;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size:20px;
   margin-top:5px;
   margin-bottom:10px;
+  font-weight: 300;
 }
 .mentor-profile-container{
   position:relative;
@@ -638,7 +652,8 @@ footer{
   margin-top: 40px;
   background-color: #333;
   color: #fffafa;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
   font-size: 20px;
   border: 1px solid black;
   border-top-right-radius: 2px;
@@ -653,7 +668,8 @@ footer{
   margin-top: 40px;
   background-color: #333;
   color: #fffafa;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
   font-size: 20px;
   border: 1px solid black;
   border-top-right-radius: 2px;
@@ -670,7 +686,8 @@ footer{
 }
 
 .about .about-believe{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
   font-size: 32px;
   color:#333;
   margin-bottom:20px;
@@ -678,7 +695,8 @@ footer{
 }
 
 .about .about-content{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   font-size: 18px;
   color:#333;
 }
