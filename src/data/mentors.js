@@ -6,7 +6,7 @@ const mentors = [
     'id': 'yos-ginting',
     'name': 'Yos Ginting',
     'image': 'yos-ginting.jpg',
-    'cover': 'yos-ginting-cover.png',
+    'cover': 'yos-ginting-cover.jpg',
     'position':'Board Member',
     'company':'H.M.Sampoerna',
     'background': 'Yos Adiguna Ginting began his career as manager for strategic alliances at PT Indah Kiat Pulp and Paper. He earned a Ph.D. in theoretical chemistry at the University of Tasmania in Australia in 1997. Mr. Ginting was eventually appointed to the position of vice president for trade alliances based in Singapore. He joined PT Hanjaya Mandala Sampoerna in April 2002, and was named director of human resources in June 2003. In 2008, Mr. Ginting was appointed director in charge of corporate affairs.',
