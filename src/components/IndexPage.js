@@ -8,7 +8,7 @@ import { Link } from 'react-router';
 var splashMentors= mentors.filter(mentor=>
   mentor.id === "handry-satriago" ||
   mentor.id === "noni-purnomo" ||
-  mentor.id === "ananda-siregar"
+  mentor.id === "yos-ginting"
 )
 
 
