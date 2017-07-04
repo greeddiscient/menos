@@ -43,7 +43,7 @@ This would not be possible without role models that we respect in our lives. We 
               <h2 className= "founder-name">Shaun Djuhari</h2>
               <h3 className= "founder-education">UC Berkeley &#39;16</h3>
               <h4 className= "founder-degree">B.S. Computer Science</h4>
-              <p className="founder-message"><i className="fa fa-quote-left founder-left-quote" aria-hidden="true"></i>Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently. They're not fond of rules. And they have no respect for the status quo. You can quote them, disagree with them, glorify or vilify them. About the only thing you can't do is ignore them. Because they change things. They push the human race forward. And while some may see them as the crazy ones, we see genius. Because the people who are crazy enough to think they can change the world, are the ones who do.<i className="fa fa-quote-right founder-right-quote" aria-hidden="true"></i></p>
+              <p className="founder-message"><i className="fa fa-quote-left founder-left-quote" aria-hidden="true"></i>Here's to the crazy ones. The misfits. The rebels. The ones who see things differently. You can quote them disagree with them, glorify or villify them. About the only thing you can't do is ignore them. Because the people who are crazy enough to think they can change the world, are the ones who do.<i className="fa fa-quote-right founder-right-quote" aria-hidden="true"></i></p>
             </div>
           </div>
 
