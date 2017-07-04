@@ -34,7 +34,7 @@ This would not be possible without role models that we respect in our lives. We 
               <h2 className= "founder-name">Abyasa Kamdani</h2>
               <h3 className= "founder-education">UC Berkeley &#39;18</h3>
               <h4 className= "founder-degree">B.A. Economics</h4>
-              <p className="founder-message"><i className="fa fa-quote-left founder-left-quote" aria-hidden="true"></i>We're all born. That's a given. It's what you do with what you have before you die that makes the difference<i className="fa fa-quote-right founder-right-quote" aria-hidden="true"></i></p>
+              <p className="founder-message"><i className="fa fa-quote-left founder-left-quote" aria-hidden="true"></i>We're all born. That's a given. It's what you do with what you have before you die that makes the difference.<i className="fa fa-quote-right founder-right-quote" aria-hidden="true"></i></p>
             </div>
           </div>
           <div className="founder-window-shaun">
