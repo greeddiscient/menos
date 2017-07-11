@@ -24,7 +24,7 @@ This would not be possible without role models that we respect in our lives. We 
               <h2 className= "founder-name">Ivander Tee</h2>
               <h3 className= "founder-education">UC Berkeley &#39;17</h3>
               <h4 className= "founder-degree">B.S. Chemical Engineering</h4>
-              <p className="founder-message"><i className="fa fa-quote-left founder-left-quote" aria-hidden="true"></i>I am where I am toy of connecting you to the right help.<i className="fa fa-quote-right founder-right-quote" aria-hidden="true"></i></p>
+              <p className="founder-message"><i className="fa fa-quote-left founder-left-quote" aria-hidden="true"></i>Following someone means lowering your pride, which sometimes hurts. But slowly, you realize that your life is enriched, perhaps tremendously, by that person. At the end, it’s a trade-off between retaining your pride and getting an enriched life. And in this short little life, the latter always makes more sense to me.<i className="fa fa-quote-right founder-right-quote" aria-hidden="true"></i></p>
             </div>
           </div>
 
