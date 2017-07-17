@@ -61,6 +61,17 @@ const mentors = [
     'story':'',
   },
   {
+    'id': 'novistiar-rustandi',
+    'name': 'Novistiar Rustandi',
+    'image': 'novistiar-rustandi.jpg',
+    'cover': 'novistiar-rustandi-cover.png',
+    'position':'CEO',
+    'company':'HarukaEDU',
+    'background': 'Mr. Novistiar Rustandi is an entrepreneur with a passion for internet startups and digital businesses. Mr. Rustandi has worked in management roles at Price Waterhouse Coopers in the United States as well as Indonesis. He serves as Director at Founder Institute, Incorporated. He earned an undergraduate accounting degree, as well as dual master’s degrees in business administration and information systems development from George Washington University, and is a graduate of the inaugural semester of the Founder Institute in Silicon Valley.',
+    'education':'The George Washington University',
+    'story':'',
+  },
+  {
     'id': 'handry-satriago',
     'name': 'Handry Satriago',
     'image': 'handry-satriago.jpg',
@@ -104,17 +115,7 @@ const mentors = [
     'education':'Chemical Engineering - University of Southern California MBA - Loyola Marymount University',
     'story':'',
   },
-  {
-    'id': 'novistiar-rustandi',
-    'name': 'Novistiar Rustandi',
-    'image': 'novistiar-rustandi.jpg',
-    'cover': 'novistiar-rustandi-cover.png',
-    'position':'CEO',
-    'company':'HarukaEDU',
-    'background': 'Mr. Novistiar Rustandi is an entrepreneur with a passion for internet startups and digital businesses. Mr. Rustandi has worked in management roles at Price Waterhouse Coopers in the United States as well as Indonesis. He serves as Director at Founder Institute, Incorporated. He earned an undergraduate accounting degree, as well as dual master’s degrees in business administration and information systems development from George Washington University, and is a graduate of the inaugural semester of the Founder Institute in Silicon Valley.',
-    'education':'The George Washington University',
-    'story':'',
-  },
+
   {
     'id': 'aldrin-tando',
     'name': 'Aldrin Tando',
